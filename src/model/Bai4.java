@@ -25,16 +25,16 @@ public class Bai4 {
                     kq = ("vn");
 
             } else
-                kq = ("x=" + 1.0 * -c / b);
+                kq = ("x=" + -c / b);
 
         } else {
             dt = b * b - 4 * a * c;
             if (dt < 0)
                 kq = ("vn");
             else if (dt == 0)
-                kq = ("x1=x2=" + 1.0 * -b / (2 * a));
+                kq = ("x1=x2=" + -b / (2 * a));
             else
-                kq = ("x1=" + (1.0 * -b - Math.sqrt(dt)) / (2 * a) + ",x2=" + (1.0 * -b + Math.sqrt(dt)) / (2 * a));
+                kq = ("x1=" + (-b - Math.sqrt(dt)) / (2 * a) + ",x2=" + (1.0 * -b + Math.sqrt(dt)) / (2 * a));
 
 
         }

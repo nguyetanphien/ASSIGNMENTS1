@@ -3,7 +3,7 @@ package model;
 import java.util.Scanner;
 
 public class Bai3 {
-    public void PT1() {
+    public void PTB1() {
         Scanner scanner = new Scanner(System.in);
         double a;
         double b;
@@ -17,6 +17,6 @@ public class Bai3 {
 
     public static void main(String[] args) {
         Bai3 bai3 = new Bai3();
-        bai3.PT1();
+        bai3.PTB1();
     }
 }
